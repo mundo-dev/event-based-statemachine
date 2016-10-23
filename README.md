@@ -24,8 +24,8 @@ Having a couple of statemachines active in your implementation the behaviour of 
 There are formal definitions of a finite-state machine/automaton (FSM/FSA) available https://en.wikipedia.org/wiki/Finite-state_machine. However the usage of this statemachine should oriented on a practical approach. E.g., formally you have to define the set of states/events
 and the transition mapping desctiption is based on elements out of these sets. So using this formal approach you have to define the set of states, set of events, transition mapping [state, event] -> [state] and the initial state. In practice you can provide the transition mapping and inital state to derive the set of states and events implicitly. Another example is the usage of a so called DEFAULT transition (depending on the current state), which makes it possible to keep the transition mapping definition shorter.
 
-## R6 - Easy to Read and maitain
-The statemachine definition should provide easy readabilty and maintainability.
+## R6 - Easy to Read and maintain
+The statemachine definition should provide easy readability and maintainability.
 
 ## R7 - Keep it simple
 The implementation should not provide solutions for every possible use case. For example it could provide callback interfaces for (pre-/post-) state change and event occurence. Because this may interfere with simplicity, readability and maintainability and may produce side effects such interfaces will not be offered.
