@@ -18,7 +18,7 @@ If you using nodejs one of the first thing you're getting in touch with are even
 In practice you expect an event to happen within a certain time frame. If the event doesn't happen within the time frame you would like to trigger a different action.
 
 ## R3 - Logging
-Having a couple of statemachines active in your implementation the behaviour of the statemachines should be easily comprehensible related to occured events an taken state transitions.
+Having a couple of statemachines active in your implementation the behaviour of the statemachines should be easily comprehensible related to occured events and taken state transitions.
 
 ## R4 - Practical orientation
 There are formal definitions of a finite-state machine/automaton (FSM/FSA) available https://en.wikipedia.org/wiki/Finite-state_machine. However the usage of this statemachine should oriented on a practical approach. E.g., formally you have to define the set of states/events
